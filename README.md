@@ -155,3 +155,10 @@ VoxCPM uses "prompt audio" to clone voices. You require a .wav or .mp3 file and 
 Two test scripts are included:
 - `test_server.py`: Simple verification using `requests`.
 - `test_openai_compatibility.py`: Full verification using the `openai` python library, covering streaming and custom parameters.
+
+## Acknowledgements
+
+This application is powered by **VoxCPM**, developed by [OpenBMB](https://github.com/OpenBMB). We gratefully acknowledge their team for the development of this open-source AI model and their valuable contributions to the community.
+
+- **GitHub Repository**: [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)
+- **Hugging Face Model**: [openbmb/VoxCPM1.5](https://huggingface.co/openbmb/VoxCPM1.5)
