@@ -1,5 +1,4 @@
-# VoxCPM 
-
+# VoiceCraft - VoxCPM
 
 # VoxCPM OpenAI-Compatible API Server
 
@@ -105,9 +104,9 @@ curl http://localhost:5000/v1/audio/speech \
   --output test.wav
 ```
 
-## Client GUI
+## VoiceCraft Client GUI
 
-A sleek, desktop client is available for easy interaction.
+A sleek, desktop client is available for easy interaction with the server.
 
 ### Prerequisites
 Install GUI dependencies:
