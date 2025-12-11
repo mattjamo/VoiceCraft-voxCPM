@@ -1,0 +1,12 @@
+flask
+voxcpm
+soundfile
+numpy
+huggingface_hub
+modelscope
+openai
+PyQt6
+pygame
+pyperclip
+requests
+sounddevice
