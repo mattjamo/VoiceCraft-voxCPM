@@ -210,4 +210,6 @@ def text_to_speech():
 if __name__ == '__main__':
     load_model()
     # OpenAI usually runs on standard ports; 5000 is default Flask
-    app.run(host='0.0.0.0', port=5000)
+    # host='127.0.0.1' -> Localhost only. Secure, only this PC can access.
+    # host='0.0.0.0'   -> All interfaces. Accessible from local network (and internet if port forwarded).
+    app.run(host='127.0.0.1', port=5000)

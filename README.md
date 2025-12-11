@@ -37,7 +37,7 @@ This project provides an OpenAI-compatible API server for the VoxCPM Text-to-Spe
 Run the Flask application:
 ```bash
 python server.py
-# Server will listen on http://0.0.0.0:5000
+# Server will listen on http://127.0.0.1:5000
 ```
 
 ### API Endpoint: `POST /v1/audio/speech`
