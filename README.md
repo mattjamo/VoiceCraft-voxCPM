@@ -1,5 +1,7 @@
 # VoiceCraft - VoxCPM
 
+VoiceCraft is made up of two components a Server to host the AI model and a Client to interact with the server. This allows the user to create and manage voices and then utilize those voices in any application that supports the OpenAI API.
+
 # VoxCPM OpenAI-Compatible API Server
 
 This project provides an OpenAI-compatible API server for the VoxCPM Text-to-Speech model. It allows you to use VoxCPM with standard OpenAI client libraries and tools that support the `/v1/audio/speech` endpoint.
@@ -162,3 +164,14 @@ This application is powered by **VoxCPM**, developed by [OpenBMB](https://github
 
 - **GitHub Repository**: [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)
 - **Hugging Face Model**: [openbmb/VoxCPM1.5](https://huggingface.co/openbmb/VoxCPM1.5)
+
+## Disclaimer
+
+This project is an independent implementation and is not affiliated with, endorsed by, or connected to any employer, including that of the developer.
+
+Additionally, this software is a personal project and is **not** associated with, sponsored by, or legally linked to any employer in any way.
+
+DO NOT USE THIS SOFTWARE FOR ANY ILLEGAL OR UNETHICAL PURPOSES. THE DEVELOPER IS NOT LIABLE FOR ANY DAMAGE OR LOSS CAUSED BY THE USE OF THIS SOFTWARE. NOR DO I CONDONE OR ENDORSE ANY ILLEGAL OR UNETHICAL USE OF THIS SOFTWARE.
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+NEVER CLONE AN INDIVIDUALS VOICE WITHOUT THEIR PERMISSION. THIS IS ILLEGAL AND UNETHICAL.
