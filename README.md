@@ -19,7 +19,8 @@ This project provides an OpenAI-compatible API server for the VoxCPM Text-to-Spe
    ```bash
    pip install -r requirements.txt
    ```
-   *Note: On Windows, you may need `triton-windows` or WSL2 for full GPU support. pip install triton-windows*
+   ```
+   *Note: For GPU acceleration, you must have an NVIDIA GPU and **CUDA Toolkit 12.4** installed. On Windows, you may also benefit from `triton-windows`*
 
 2. **Download Model**:
    The model `openbmb/VoxCPM1.5` will be automatically downloaded on the first run.

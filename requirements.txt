@@ -1,12 +1,19 @@
-flask
-voxcpm
-soundfile
-numpy
-huggingface_hub
-modelscope
-openai
-PyQt6
-pygame
-pyperclip
-requests
-sounddevice
+# Core Application Dependencies
+Flask==3.0.3
+requests==2.32.3
+soundfile==0.13.1
+numpy==1.26.4
+PyQt6==6.10.0
+pygame==2.6.1
+pyperclip==1.9.0
+sounddevice==0.5.3
+openai==1.76.0
+
+# AI & Model Dependencies
+voxcpm==1.5.0
+torch==2.5.1+cu124
+torchaudio==2.5.1+cu124
+huggingface-hub==0.35.3
+transformers==4.57.3
+accelerate==1.12.0
+einops==0.8.0
